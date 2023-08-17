@@ -3,79 +3,113 @@
     padding: 0;
 }
 
-.cabeçalho {
-    background-color: rgb(12, 12, 12);
-    color: antiquewhite;
+.cabecalho{
+    background-color: #686868;
+    color: aliceblue;
     display: flex;
-    justify-content: space-around;
-    padding: 24px 0;
-   
+    justify-content:space-around;
+    align-items: center;
+    padding: 22px 22px;
+    z-index: 1;
 }
-.cabeçalho-imagem{
+
+.cabecalho-imagem{
     width: 20%;
 }
 
-.cabeçalho-lista-item{
+.cabecalho-lista-item{
     display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
+    align-content: flex-end; 
+    margin: 0 15px;
+    font-size: 15px;
+    font-family: 'Caprasimo', cursive;
 
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
 }
 
 .escola-imagem{
-    width: 15%;
-
+    width: 20%;
 }
 
-.escola{
-    background-image: linear-gradient(#232323,#525252,#717171);
-    color: white;
+#escola{
+    background-color: #C8D7E8;
+    color: black;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 7%;
+    justify-content:center;
+    align-items: flex;
+    padding: 20px 0;
 }
 
 .escola-div-conteudo{
-    width: 35%;
+    width: 30%;
 }
 
 .escola-titulo{
-    padding: 24px 0;
+    padding: 28px 0;
+    font-family: 'Caprasimo', cursive;
 }
 
-.estudantes-imagem{
-    width: 170px;
+.emilio-de-menezes{
+    background-color: #C8D7E8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    padding: 20px 0;
 }
 
-.estudantes-icone{
-    width: 20px;
+.emiliotitulo{
+    padding: 28px 0;
+    font-family: 'Caprasimo', cursive;
 }
 
-.estudantes-div{
+.emilio-de-menezes-div-conteudo{
+    width: 30%;
+}
+
+.imagem-emilio{
+    width: 10%;
+}
+
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-icone{
+    width: 24px;
+}
+
+#estudantes{
     text-align: center;
 }
 
-.estudantes-titulo{
-    text-align: center;
+.estudante-título{
     padding: 50px 0;
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+    background-color: #C8D7E8;
+    color: black;
 }
 
-.estudantes-todos{
+.estudante-todos{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-
+    grid-template-columns: 50% 50%;
+    font-family: 'Caprasimo', cursive;
+    padding: 40px 10px;
+    background-color: #C8D7E8;
+    color: black;
 }
 
-.rodape{
-    background-color: #000000;
+.rodapé{
+    background-color:#686868;
+    text-align: center;
+    padding: 22px 22px;
 }
 
-.rodape-imagem{
-    height: 60px;
-}
-
-body{
-    background-image: linear-gradient(#717171,#525252,#232323);
-    color: #fff;
+.rodapé-imagem{
+    height: 40px;
 }
